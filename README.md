@@ -1,6 +1,7 @@
 # 🎬 Movie Recommendation System
 
 This is a content-based Movie Recommendation System built using **Flask**, **Pandas**, **Scikit-learn**, and the **TMDB API**. Users can enter any movie name, and the app recommends similar movies with posters, ratings, and brief overviews.
+Dataset Link : https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ---
 ## API_KEY 
