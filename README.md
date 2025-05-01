@@ -3,8 +3,31 @@
 This is a content-based Movie Recommendation System built using **Flask**, **Pandas**, **Scikit-learn**, and the **TMDB API**. Users can enter any movie name, and the app recommends similar movies with posters, ratings, and brief overviews.
 
 ---
-API_KEY = 'your_tmdb_api_key_here'
+## API_KEY 
 
+✅ Steps to Get TMDb API Key:
+
+Go to TMDb Website:
+Visit https://www.themoviedb.org
+
+Create an Account:
+Click on "Sign Up" and create a free account (or log in if you already have one).
+
+Verify Your Email:
+TMDb will send you a verification email. Click the link to verify your account.
+
+Navigate to API Section:
+After logging in, go to your profile > Settings > API or directly visit https://www.themoviedb.org/settings/api
+
+Apply for an API Key:
+Scroll down to "API Key" section. Choose "Developer" for personal projects.
+
+Fill the Application Form:
+Provide a brief name and description of your project. (e.g., “Personal Movie Recommender”)
+
+Submit and Copy Your Key:
+After approval, you’ll see your API key. Copy it and paste it into your code where needed.
+---
 ## 🚀 Features
 
 - 🔍 Search for a movie using TMDB
