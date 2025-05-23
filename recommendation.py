@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 API_KEY = '0a7a42d3e393653ba495817fab7e4201'  # 🔁 Replace with your real TMDB API key
 
 # Load and prepare dataset
-movies = pd.read_csv('movies.csv')
+movies = pd.read_csv('dataset/movies.csv')
 movies['combined'] = movies['genres'] + ' ' + movies['keywords'] + ' ' + movies['overview']
 movies['combined'] = movies['combined'].fillna('')
 
