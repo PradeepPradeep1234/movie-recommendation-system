@@ -1,9 +1,13 @@
 # 🎬 Movie Recommendation System
 
+🔗 **[Live Demo](https://movie-recommendation-system-v243.onrender.com)**
+
 This is a content-based Movie Recommendation System built using **Flask**, **Pandas**, **Scikit-learn**, and the **TMDB API**. Users can enter any movie name, and the app recommends similar movies with posters, ratings, and brief overviews.
+
 Dataset Link : https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ---
+
 ## API_KEY 
 
 ✅ Steps to Get TMDb API Key:
@@ -28,19 +32,23 @@ Provide a brief name and description of your project. (e.g., “Personal Movie R
 
 Submit and Copy Your Key:
 After approval, you’ll see your API key. Copy it and paste it into your code where needed.
+
 ---
+
 ## 🚀 Features
 
 - 🔍 Search for a movie using TMDB
 - 🎯 Get top 10 similar movies based on genres, keywords, and storyline
 - 🖼️ View movie poster, rating, overview, and external link to TMDB
 - 🌐 Live web interface built with Flask and Bootstrap
----
-## 📝 Credits
-    .TMDB API
-    .Bootstrap for UI
+
 ---
 
+## 📝 Credits
+- TMDB API  
+- Bootstrap for UI
+
+---
 
 ## How It Works
 
@@ -57,6 +65,7 @@ After approval, you’ll see your API key. Copy it and paste it into your code w
 2. Output: Recommended movies like *Interstellar*, *The Prestige*, *Shutter Island*, etc. with posters and descriptions.
 
 ---
+
 ## 🛠️ Installation
 
 ### 1. Clone the repo
